@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>procyon</name>
+    <description>Personal Overlay</description>
+    <owner>
+      <email>donat@opmbx.org</email>
+      <name>donat-b</name>
+    </owner>
+    <source type="git">https://github.com/donat-b/procyon.git</source>
+  </repo>
+</repositories>
