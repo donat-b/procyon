@@ -5,7 +5,7 @@ inherit qmake-utils
 
 DESCRIPTION="A cross-plattform non-polling IMAP new-mail systray notifier."
 HOMEPAGE="https://bitbucket.org/gsauthof/trysterobiff/overview"
-SRC_URI="https://github.com/donat-b/trysterobiff/archive/${PV}.tar.gz"
+SRC_URI="https://github.com/donat-b/trysterobiff/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-3+"
 SLOT="0"
