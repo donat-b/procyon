@@ -16,6 +16,7 @@ SRC_URI="https://github.com/romanz/amodem/archive/v${PV}.tar.gz -> ${P}.tar.gz
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="matplotlib"
 
-RDEPEND="media-libs/portaudio"
+RDEPEND="media-libs/portaudio
+matplotlib? ( dev-python/matplotlib )"
