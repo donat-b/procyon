@@ -1,14 +1,13 @@
-=================================
-How to Contribute to this Overlay
-=================================
+## What
+Personal portage overlay. Contains some experimental ebuilds and more recent versions of packages from the main repository.
+Use at your own risk.
 
-:author: Donat Kh
-:contact: donat@opmbx.org
-:language: English
+##Install
 
+layman -o https://raw.githubusercontent.com/donat-b/procyon/master/procyon-overlay.xml -f -a procyon
 
-To contribute bug reports for this overlay, you can open up a GitHub issue or send
-me a pull request.
+##Atoms
 
+#### net-analyzer/scapy
+Scapy is a powerful Python-based interactive packet manipulation program and library.
 
-Use at your own risk!
