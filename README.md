@@ -16,9 +16,15 @@ VDMFEC's primary application is intended to be in recovering data from unreliabl
 http://freecode.com/projects/vdmfec
 
 
-#### net-analyzer/scapy
+#### net-analyzer/scapy [2.3.2]
 Scapy is a powerful Python-based interactive packet manipulation program and library.
 
 It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and much more.
 
 http://www.secdev.org/projects/scapy/
+
+
+#### sys-fs/btfs [2.5]
+Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
+
+https://github.com/johang/btfs
