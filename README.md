@@ -24,6 +24,13 @@ It is able to forge or decode packets of a wide number of protocols, send them o
 http://www.secdev.org/projects/scapy/
 
 
+#### net-mail/trysterobiff
+Trysterobiff is a cross-plattform non-polling IMAP new-mail systray notifier.
+Instead of polling it uses the IDLE extension of IMAP. With the IDLE extension
+an IMAP server immediately sends mailbox status updates to the client. Using
+this mechanism you really get notified of new mail as fast as possible.
+
+
 #### sys-fs/btfs [2.5]
 Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
 
