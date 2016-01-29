@@ -39,5 +39,4 @@ src_install() {
 	autotools-utils_src_install
 
 	dodoc README.md
-	doman "${FILESDIR}/btfs.1"
 }
