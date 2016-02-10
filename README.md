@@ -31,7 +31,7 @@ an IMAP server immediately sends mailbox status updates to the client. Using
 this mechanism you really get notified of new mail as fast as possible.
 
 
-#### sys-fs/btfs [2.6]
+#### sys-fs/btfs [2.7]
 Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
 
 https://github.com/johang/btfs
