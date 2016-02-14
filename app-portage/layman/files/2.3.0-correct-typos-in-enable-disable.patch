@@ -1,0 +1,32 @@
+From 3ed3bc4d73658acc7f9541d34c7e9d1190211a41 Mon Sep 17 00:00:00 2001
+From: Devan Franchini <twitch153@gentoo.org>
+Date: Sat, 5 Sep 2015 02:03:32 -0400
+Subject: [PATCH] api.py: Corrects typo in enable/disable_repo functions()
+
+References git issue #30.
+---
+ layman/api.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/layman/api.py b/layman/api.py
+index 20fe402..2c46bb7 100755
+--- a/layman/api.py
++++ b/layman/api.py
+@@ -193,7 +193,7 @@ def disable_repos(self, repos, update_news=False):
+         for ovl in repos:
+             if not self.is_repo(ovl):
+                 self.output.error(UnknownOverlayMessage(ovl))
+-                result.append(False)
++                results.append(False)
+                 continue
+             success = False
+             try:
+@@ -218,7 +218,7 @@ def enable_repos(self, repos, update_news=False):
+         for ovl in repos:
+             if not self.is_repo(ovl):
+                 self.output.error(UnknownOverlayMessage(ovl))
+-                result.append(False)
++                results.append(False)
+                 continue
+             success = False
+             try:

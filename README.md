@@ -11,9 +11,21 @@ layman -o https://raw.githubusercontent.com/donat-b/procyon/master/procyon-overl
 
 #### app-misc/vdmfec
 Vandermonde Forward Error Correction
-VDMFEC's primary application is intended to be in recovering data from unreliable media such as diskettes. With appropriate parameters, files may be recovered even with many read errors.
+VDMFEC's primary application is intended to be in recovering data from
+unreliable media such as diskettes. With appropriate parameters, files may be
+recovered even with many read errors.
 
 http://freecode.com/projects/vdmfec
+
+
+#### app-portage/layman [2.3.0-r2]
+Gentoo overlay manager that allows to integrate experimental software packages
+into the main distribution. It can also be used as a manager for version
+control repositories.
+
+_Integrated the patch that fixes enable/disable function._
+
+https://github.com/gentoo/layman
 
 
 #### net-analyzer/scapy [2.3.2]
