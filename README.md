@@ -1,9 +1,9 @@
-##Procyon overlay
+## Procyon overlay
 Contains some experimental ebuilds and more recent versions of packages from the main repository.
 
 Use at your own risk.
 
-##Installing
+## Installing
 
 layman -o https://raw.githubusercontent.com/donat-b/procyon/master/procyon-overlay.xml -f -a procyon
 
@@ -41,6 +41,12 @@ Trysterobiff is a cross-plattform non-polling IMAP new-mail systray notifier.
 Instead of polling it uses the IDLE extension of IMAP. With the IDLE extension
 an IMAP server immediately sends mailbox status updates to the client. Using
 this mechanism you really get notified of new mail as fast as possible.
+
+
+#### net-misc/cortex
+An ncurses application to keep track and browse reddit article list.
+
+https://github.com/GGLucas/cortex
 
 
 #### net-fs/btfs [2.7]
