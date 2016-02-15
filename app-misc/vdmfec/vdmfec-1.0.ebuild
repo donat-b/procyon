@@ -6,7 +6,7 @@ SRC_URI="http://members.tripod.com/professor_tom/archives/${P}.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="*"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
