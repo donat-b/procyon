@@ -1,13 +1,24 @@
 ## Procyon overlay
-Contains some experimental ebuilds and more recent versions of packages from the main repository.
+Personal overlay for Gentoo GNU/Linux.
+
+Contains experimental ebuilds and more recent versions of packages from the
+main repository I'm interested in.
 
 Use at your own risk.
 
 ## Installing
 
-layman -o https://raw.githubusercontent.com/donat-b/procyon/master/procyon-overlay.xml -f -a procyon
+Install layman, if you didn't already:
+`emerge -a layman`
 
-##Atoms
+Add the overlay:
+`layman -a procyon`
+
+## Licence
+
+GNU General Public License v2
+
+## Atoms
 
 #### app-misc/vdmfec
 Vandermonde Forward Error Correction
@@ -42,14 +53,16 @@ Instead of polling it uses the IDLE extension of IMAP. With the IDLE extension
 an IMAP server immediately sends mailbox status updates to the client. Using
 this mechanism you really get notified of new mail as fast as possible.
 
-
-#### net-misc/cortex
-An ncurses application to keep track and browse reddit article list.
-
-https://github.com/GGLucas/cortex
+https://bitbucket.org/gsauthof/trysterobiff/overview
 
 
 #### net-fs/btfs [2.7]
 Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
 
 https://github.com/johang/btfs
+
+
+#### net-misc/cortex
+An ncurses application to keep track and browse reddit article list.
+
+https://github.com/GGLucas/cortex
