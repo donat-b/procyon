@@ -29,6 +29,12 @@ recovered even with many read errors.
 http://freecode.com/projects/vdmfec
 
 
+#### app-misc/tmuxinator [0.6.11]
+Tmux session manager.
+
+https://github.com/tmuxinator/tmuxinator
+
+
 #### app-portage/layman [2.3.0-r2]
 Gentoo overlay manager that allows to integrate experimental software packages
 into the main distribution. It can also be used as a manager for version
