@@ -72,3 +72,10 @@ https://github.com/johang/btfs
 An ncurses application to keep track and browse reddit article list.
 
 https://github.com/GGLucas/cortex
+
+
+#### sys-fs/lvm2 [2.02.136-r2]
+User-land utilities for LVM2 (device-mapper) software.
+Added an init.d script for snapshot automation.
+
+https://sources.redhat.com/lvm2/
