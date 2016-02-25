@@ -78,4 +78,4 @@ https://github.com/GGLucas/cortex
 User-land utilities for LVM2 (device-mapper) software.
 Added an init.d script for snapshot automation.
 
-https://sources.redhat.com/lvm2/
+https://www.sourceware.org/lvm2/
