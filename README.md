@@ -62,7 +62,7 @@ this mechanism you really get notified of new mail as fast as possible.
 https://bitbucket.org/gsauthof/trysterobiff/overview
 
 
-#### net-fs/btfs [2.7]
+#### net-fs/btfs [2.8]
 Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
 
 https://github.com/johang/btfs
