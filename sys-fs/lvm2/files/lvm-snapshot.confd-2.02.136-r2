@@ -1,0 +1,6 @@
+# LVM snapshot options
+
+# example: ( vg/lv01 vg/lv02 )
+LV_LIST=( )
+LV_SUFFIX=snap
+LV_SIZE=5G

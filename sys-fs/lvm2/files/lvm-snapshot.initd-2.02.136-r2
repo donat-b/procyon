@@ -1,0 +1,22 @@
+#!/sbin/openrc-run
+# Copyright 1999-2016 Gentoo Foundation
+# Created by Donat Kh donat@opmbx.org
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+description="Create a snapshot of logical volume(s)"
+
+depend() {
+	need lvm
+}
+
+start() {
+	[[ ${#LV_LIST[@]} -eq 0 ]] && \
+		ewarn "You must set LV_LIST in /etc/conf.d/lvm-snapshot"
+	for lv in "${LV_LIST[@]}"; do
+		ebegin "Creating snapshot for LV $lv"
+		lvremove "${lv}_${LV_SUFFIX}" -f
+		lvcreate -s -n "${lv}_${LV_SUFFIX}" -L ${LV_SIZE} "$lv"
+		eend $? "Failed to create a snapshot for $lv ($?)"
+	done
+}
