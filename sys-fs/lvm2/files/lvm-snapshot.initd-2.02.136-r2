@@ -15,7 +15,8 @@ start() {
 		ewarn "You must set LV_LIST in /etc/conf.d/lvm-snapshot"
 	for lv in "${LV_LIST[@]}"; do
 		ebegin "Creating snapshot for LV $lv"
-		lvremove "${lv}_${LV_SUFFIX}" -f
+		[[ -e "/dev/${lv}_${LV_SUFFIX}" ]] && \
+			lvremove "${lv}_${LV_SUFFIX}" -f
 		lvcreate -s -n "${lv}_${LV_SUFFIX}" -L ${LV_SIZE} "$lv"
 		eend $? "Failed to create a snapshot for $lv ($?)"
 	done
