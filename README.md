@@ -29,8 +29,9 @@ You can contact me by sending a message to: <donat@opmbx.org>
 
 ## TODO
 
-[ ] Add metadata
-[ ] Arch testing
+- [ ] Add metadata
+
+- [ ] Arch testing
 
 ## Atoms
 
