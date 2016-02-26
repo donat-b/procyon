@@ -7,16 +7,18 @@ EAPI=5
 inherit autotools-utils
 
 DESCRIPTION="A general-purpose software audio FSK modem"
-HOMEPAGE=""
+HOMEPAGE="http://www.whence.com/minimodem/"
 SRC_URI="https://github.com/kamalmostafa/minimodem/archive/${PN}-${PV/_p/-}.tar.gz"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="alsa benchmarks pulseaudio sndfile"
+IUSE="alsa benchmarks pulseaudio +sndfile"
 
-DEPEND=">=sys-devel/autoconf-2.64
-"
+DEPEND="sci-libs/fftw:3.0
+	alsa? ( media-libs/alsa-lib )
+	pulseaudio? ( media-sound/pulseaudio )
+	sndfile? ( media-libs/libsndfile )"
 RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${PN}-${PN}-${PV/_p/-}
