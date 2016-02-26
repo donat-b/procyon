@@ -1,4 +1,5 @@
 ## Procyon overlay
+
 Personal overlay for Gentoo GNU/Linux.
 
 Contains experimental ebuilds and more recent versions of packages from the
@@ -9,14 +10,22 @@ Use at your own risk.
 ## Installing
 
 Install layman, if you didn't already:
+
 `emerge -a layman`
 
 Add the overlay:
+
 `layman -a procyon`
 
 ## Licence
 
 GNU General Public License v2
+
+## Contributing
+
+Feel free to open up a GitHub issue or send a pull request.
+
+You can contact me by sending a message to: <donat@opmbx.org>
 
 ## Atoms
 
@@ -26,7 +35,7 @@ Tmux session manager.
 https://github.com/tmuxinator/tmuxinator
 
 
-#### app-misc/vdmfec
+#### app-misc/vdmfec [1.0]
 Vandermonde Forward Error Correction
 VDMFEC's primary application is intended to be in recovering data from
 unreliable media such as diskettes. With appropriate parameters, files may be
