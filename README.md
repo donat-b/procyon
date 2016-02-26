@@ -20,6 +20,12 @@ GNU General Public License v2
 
 ## Atoms
 
+#### app-misc/tmuxinator [0.6.11]
+Tmux session manager.
+
+https://github.com/tmuxinator/tmuxinator
+
+
 #### app-misc/vdmfec
 Vandermonde Forward Error Correction
 VDMFEC's primary application is intended to be in recovering data from
@@ -29,10 +35,13 @@ recovered even with many read errors.
 http://freecode.com/projects/vdmfec
 
 
-#### app-misc/tmuxinator [0.6.11]
-Tmux session manager.
+#### app-text/base91 [0.6.0]
+basE91 is an advanced method for encoding binary data as ASCII characters. It
+is similar to UUencode or base64, but is more efficient. The overhead produced
+by basE91 depends on the input data. It amounts at most to 23% (versus 33% for
+base64) and can range down to 14%, which typically occurs on 0-byte blocks.
 
-https://github.com/tmuxinator/tmuxinator
+http://base91.sourceforge.net
 
 
 #### app-portage/layman [2.3.0-r2]
