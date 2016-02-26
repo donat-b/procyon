@@ -2,6 +2,7 @@
   <repo priority="50" quality="experimental">
     <name>procyon</name>
     <description>Procyon Overlay</description>
+    <homepage>https://github.com/donat-b/procyon</homepage>
     <owner>
       <email>donat@opmbx.org</email>
       <name>donat-b</name>
