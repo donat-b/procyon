@@ -6,7 +6,7 @@ EAPI=5
 
 inherit autotools-utils
 
-DESCRIPTION="Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree"
+DESCRIPTION="Mount a torrent file or magnet link as a file system"
 HOMEPAGE="https://github.com/johang/btfs"
 SRC_URI="https://github.com/johang/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
@@ -20,6 +20,7 @@ DEPEND=">=sys-devel/autoconf-2.69
 	>=net-misc/curl-7.22.0
 	>=net-libs/rb_libtorrent-0.16.0"
 RDEPEND="${DEPEND}"
+DOCS=(README.md)
 
 AUTOTOOLS_AUTORECONF=1
 
@@ -37,6 +38,5 @@ src_compile() {
 
 src_install() {
 	autotools-utils_src_install
-
-	dodoc README.md
+	dodoc ${DOCS[@]}
 }
