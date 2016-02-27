@@ -17,11 +17,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 DOCS=( NEWS README )
-
-src_prepare() {
-	# disable stripping
-	sed -i "s:LDFLAGS = -s:LDFLAGS +=:" Makefile || die 'sed Makefile failed'
-}
+RESTRICT='strip'
 
 src_compile() {
 	emake
