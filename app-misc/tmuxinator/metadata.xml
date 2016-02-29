@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>donat@opmbx.org</email>
+		<name>Procyon Overlay</name>
+	</maintainer>
+	<longdescription lang="en">
+		Tmuxinator allows you to create and manage tmux sessions efficiently.
+	</longdescription>
+</pkgmetadata>
