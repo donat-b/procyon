@@ -69,6 +69,12 @@ _Integrated the patch that fixes enable/disable function._
 https://github.com/gentoo/layman
 
 
+#### net-analyzer/cnping
+Minimal graphical IPv4 ping tool
+
+https://github.com/cnlohr/cnping
+
+
 #### net-analyzer/scapy [2.3.2]
 Scapy is a powerful Python-based interactive packet manipulation program and library.
 
