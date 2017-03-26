@@ -102,15 +102,9 @@ https://bitbucket.org/gsauthof/trysterobiff/overview
 Minimodem is a command-line program which decodes (or generates) audio modem
 tones at any specified baud rate, using various framing protocols. It acts a
 general-purpose software FSK modem, and includes support for various standard
-FSK protocols such as Bell103, Bell202, RTTY, TTY/TDD NOAA SAME, and Caller-ID. 
+FSK protocols such as Bell103, Bell202, RTTY, TTY/TDD NOAA SAME, and Caller-ID.
 
 http://www.whence.com/minimodem/
-
-
-#### net-fs/btfs [2.8]
-Mount any .torrent file or magnet link and then use it as any read-only directory in your file tree.
-
-https://github.com/johang/btfs
 
 
 #### net-misc/cortex
