@@ -18,8 +18,9 @@ RDEPEND="media-libs/libpng
 DEPEND="${RDEPEND}
 	virtual/pkgconfig"
 
-src_compile() {
-	default
+src_prepare() {
+	eapply "${FILESDIR}"
+	eapply_user
 }
 
 src_install() {
