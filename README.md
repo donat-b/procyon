@@ -45,6 +45,13 @@ recovered even with many read errors.
 http://freecode.com/projects/vdmfec
 
 
+#### app-office/watson [1.4.0]
+Watson is a command line utility to track time you spend on projects
+and to generate reports for clients.
+
+https://tailordev.github.io/Watson/
+
+
 #### app-text/base91 [0.6.0]
 basE91 is an advanced method for encoding binary data as ASCII characters. It
 is similar to UUencode or base64, but is more efficient. The overhead produced
