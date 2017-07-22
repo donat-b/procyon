@@ -14,6 +14,7 @@ S=${WORKDIR}/Watson-${PV}
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+IUSE="zsh-completion"
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 DEPEND="${PYTHON_DEPS}"
@@ -22,3 +23,11 @@ RDEPEND="${DEPEND}
 	dev-python/click
 	dev-python/requests
 	"
+
+python_install_all() {
+	distutils-r1_python_install_all
+	if use zsh-completion; then
+		insinto /usr/share/zsh/site-functions
+		newins watson.zsh-completion _watson
+	fi
+}
