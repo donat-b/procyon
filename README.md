@@ -35,11 +35,6 @@ You can contact me by sending a message to: <donat@opmbx.org>
 
 ## Atoms
 
-#### app-misc/tmuxinator [0.6.11]
-Tmux session manager.
-
-https://github.com/tmuxinator/tmuxinator
-
 
 #### app-misc/vdmfec [1.0]
 Vandermonde Forward Error Correction
