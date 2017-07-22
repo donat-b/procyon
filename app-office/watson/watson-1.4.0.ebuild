@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python{2_7,3_4,3_5} pypy )
 
 inherit python-r1 distutils-r1
 
-DESCRIPTION="A wonderful CLI to track your time!"
+DESCRIPTION="A command line time tracking utility"
 HOMEPAGE="http://tailordev.github.io/Watson/"
 SRC_URI="https://github.com/TailorDev/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 S=${WORKDIR}/Watson-${PV}
