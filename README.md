@@ -36,6 +36,12 @@ You can contact me by sending a message to: <donat@opmbx.org>
 ## Atoms
 
 
+#### app-backup/restic [0.7.1]
+A backup program that is fast, efficient and secure
+
+https://restic.github.io
+
+
 #### app-misc/vdmfec [1.0]
 Vandermonde Forward Error Correction
 VDMFEC's primary application is intended to be in recovering data from
