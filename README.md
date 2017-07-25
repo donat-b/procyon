@@ -21,17 +21,6 @@ Add the overlay:
 
 GNU General Public License v2
 
-## Contributing
-
-Feel free to open up a GitHub issue or send a pull request.
-
-You can contact me by sending a message to: <donat@opmbx.org>
-
-## TODO
-
-- [ ] Add metadata
-
-- [ ] Arch testing
 
 ## Atoms
 
