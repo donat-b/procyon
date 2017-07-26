@@ -2,8 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="project">
-		<name>Procyon</name>
+		<email>donat@opmbx.org</email>
+		<name>procyon</name>
 	</maintainer>
+	<longdescription>
+		restic is a program that aims to make backups easy, fast, verifiable, secure and efficient.
+	</longdescription>
 	<upstream>
 		<remote-id type="github">restic/restic</remote-id>
 	</upstream>
