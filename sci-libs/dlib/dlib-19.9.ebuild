@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-PYTHON_COMPAT=( python3_3 python3_6 )
+PYTHON_COMPAT=( python{3_4,3_5,3_6} )
 inherit python-r1 cmake-utils cuda
 
 DESCRIPTION="Numerical and networking C++ library"
@@ -23,6 +23,7 @@ RDEPEND="
 	lapack? ( virtual/lapack:= )
 	mkl? ( sci-libs/mkl:= )
 	png? ( media-libs/libpng:0= )
+	python? ( ${PYTHON_DEPS} )
 	sqlite? ( dev-db/sqlite:3= )
 	X? ( x11-libs/libX11:= )
 "
@@ -63,7 +64,7 @@ src_test() {
 src_install() {
 	cmake-utils_src_install
 	if use python; then
-		"${PYTHON:-python}" setup.py install --optimize 2 --root=${D} || die
+		python_foreach_impl python_domodule ${PN}
 	fi
 	dodoc docs/README.txt
 	use static-libs || rm -f "${ED}"/usr/$(get_libdir)/*.a
