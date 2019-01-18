@@ -7,16 +7,6 @@ main repository I'm interested in.
 
 Use at your own risk.
 
-## Installing
-
-Install layman, if you didn't already:
-
-`emerge -a layman`
-
-Add the overlay:
-
-`layman -a procyon`
-
 ## Licence
 
 GNU General Public License v2
@@ -38,6 +28,19 @@ unreliable media such as diskettes. With appropriate parameters, files may be
 recovered even with many read errors.
 
 http://freecode.com/projects/vdmfec
+
+
+#### app-misc/task-spooler
+task spooler is a Unix batch system where the tasks spooled run one after the
+other. The amount of jobs to run at once can be set at any time. Each user in
+each system has his own job queue. The tasks are run in the correct context
+(that of enqueue) from any shell/process, and its output/results can be easily
+watched. It is very useful when you know that your commands depend on a lot of
+RAM, a lot of disk use, give a lot of output, or for whatever reason it's
+better not to run them all at the same time, while you want to keep your
+resources busy for maximum benefit.
+
+http://vicerveza.homeunix.net/~viric/soft/ts/
 
 
 #### app-office/watson [1.4.0]
